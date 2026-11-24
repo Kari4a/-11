@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Планеты Солнечной системы — Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="site-title">🪐 Планеты Солнечной системы</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Главная</a></li>
+                <li><a href="earth.html">Земля</a></li>
+                <li><a href="mars.html">Марс</a></li>
+                <li><a href="saturn.html">Сатурн</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Добро пожаловать в мир астрономии!</h2>
+            <p>Солнечная система — это удивительный уголок Вселенной, в котором находится наш дом. Она состоит из Солнца и восьми планет, каждая из которых уникальна по-своему. Приглашаю вас в путешествие по самым интересным мирам!</p>
+        </section>
+
+        <section class="hero">
+            <h2>Что вы узнаете</h2>
+            <p>На этом сайте вы познакомитесь с тремя удивительными планетами: нашей родной Землёй, загадочным красным Марсом и величественным Сатурном с его кольцами. Каждая страница содержит интересные факты, характеристики и изображения.</p>
+        </section>
+
+        <div class="planet-grid">
+            <div class="mini-card">
+                <img src="icons8-планета-земля-64.png" alt="Земля">
+                <div class="mini-content">
+                    <h3> Земля</h3>
+                    <p>Наш дом — единственная известная планета с жизнью. Голубая жемчужина Солнечной системы.</p>
+                    <a href="earth.html" class="btn">Узнать больше</a>
+                </div>
+            </div>
+            <div class="mini-card">
+               <img src="icons8-google-earth-50.png" alt="Марс">
+                <div class="mini-content">
+                    <h3>Марс</h3>
+                    <p>Красная планета, которая манит человечество своими тайнами и возможной жизнью в прошлом.</p>
+                    <a href="mars.html" class="btn">Узнать больше</a>
+                </div>
+            </div>
+            <div class="mini-card">
+               <img src="icons8-сатурн-50.png" alt="Сатурн">
+
+                <div class="mini-content">
+                    <h3>Сатурн</h3>
+                    <p>Властелин колец — газовый гигант, поражающий красотой своих ледяных колец.</p>
+                    <a href="saturn.html" class="btn">Узнать больше</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="author">Автор сайта: Платонов Тимур, 11с1 класс</div>
+    <footer>&copy; <span id="year"></span> Проект по астрономии</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

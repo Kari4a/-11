@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Земля — Планеты Солнечной системы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="site-title">🪐 Планеты Солнечной системы</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="earth.html" class="active">Земля</a></li>
+                <li><a href="mars.html">Марс</a></li>
+                <li><a href="saturn.html">Сатурн</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="planet-card"><img src="istockphoto-1457206081-1024x1024.jpg" alt="Планета Земля">
+            <div class="planet-content">
+                <h2> Земля</h2>
+                <p>Земля — третья по удалённости от Солнца планета Солнечной системы и наша родная планета. Это единственное известное человечеству небесное тело, на котором существует жизнь. Земля образовалась примерно 4,54 миллиарда лет назад и с тех пор прошла долгий путь эволюции.</p>
+                <p>Около 71% поверхности Земли покрыто водой — это океаны, моря, реки и озёра. Именно наличие воды в жидком состоянии, а также атмосфера, защищающая от вредного излучения, создали уникальные условия для возникновения и развития жизни.</p>
+                <p>Земля обладает мощным магнитным полем, которое защищает нас от солнечного ветра и космических лучей. Атмосфера планеты состоит в основном из азота (78%) и кислорода (21%), которым мы дышим.</p>
+                <p>Наша планета обращается вокруг Солнца за 365,25 суток — этот период мы называем годом. Один оборот вокруг своей оси Земля совершает за 24 часа, что даёт нам смену дня и ночи.</p>
+
+                <div class="planet-info">
+                    <div class="info-item">
+                        <strong>Диаметр</strong>
+                        12 742 км
+                    </div>
+                    <div class="info-item">
+                        <strong>Масса</strong>
+                        5,97 × 10²⁴ кг
+                    </div>
+                    <div class="info-item">
+                        <strong>Расстояние от Солнца</strong>
+                        149,6 млн км
+                    </div>
+                    <div class="info-item">
+                        <strong>Спутники</strong>
+                        1 (Луна)
+                    </div>
+                    <div class="info-item">
+                        <strong>Период вращения</strong>
+                        24 часа
+                    </div>
+                    <div class="info-item">
+                        <strong>Средняя температура</strong>
+                        +15 °C
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="author">Автор сайта: Платонов Тимур, 11с1 класс</div>
+    <footer>&copy; <span id="year"></span> Проект по астрономии</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
